@@ -1,0 +1,31 @@
+/* src/WordCount.css */
+.word-count-container {
+    max-width: 600px; /* Limit width for readability */
+    margin: 0 auto; /* Center the container */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.input-area {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none; /* Prevent resizing */
+}
+
+.word-count-display {
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+    color: #555;
+}
